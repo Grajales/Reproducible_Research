@@ -28,8 +28,8 @@ library(base64)
 library(ggplot2)
 library(chron)
 
-#Setting working directory path
-setwd("D:/Liliana_2016/ReproducibleResearch/Script_Project/repdata-data-activity")
+#Setting working directory path (when working from computer)
+#setwd(~/repdata-data-activity")
 
 #*****************************
 # Reading the table and separating the string of data into columns using sep=";"
