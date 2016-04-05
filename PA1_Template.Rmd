@@ -28,8 +28,9 @@ library(base64)
 library(ggplot2)
 library(chron)
 
-#Setting working directory path (when working from computer)
-#setwd(~/repdata-data-activity")
+#Setting working directory path 
+(WD <- getwd())
+if (!is.null(WD)) setwd(WD)
 
 #*****************************
 # Reading the table and separating the string of data into columns using sep=";"
