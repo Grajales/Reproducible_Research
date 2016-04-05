@@ -155,11 +155,11 @@ sqrt_dim_steps_m <-with(activity_modified, tapply(steps_m, date_m, length))
 sem_m<-std_m/sqrt(sqrt_dim_steps_m)
 median_m <-with(activity_modified, tapply(steps_m,date_m,median))
 plot(unique(activity_modified$date_m), mean_m, type ="p", xlab="date", ylab= "Steps Mean Modified", main="Mean Value of Steps Taken Per Day, NAs=Average")
-plot(unique(activity_modified$date_m), median_m, type ="p", xlab="date", ylab= "Steps Median Modified", main="Mean Value of Steps Taken Per Day, NAs=Average")
+plot(unique(activity_modified$date_m), median_m, type ="p", xlab="date", ylab= "Steps Median Modified", main="Median Value of Steps Taken Per Day, NAs=Average")
 stats_day_m <- data.frame(date1_m=unique(activity_modified$date_m),sum_m,mean_m,median_m,std_m,sem_m,sqrt_dim_steps_m)
 ```
 
-Ploting the new histogram where the "NAs"" where modified by the overall average number of steps 
+Ploting the new histogram where the "NAs"" were modified by the overall average number of steps 
 
 ```{r hist2, echo=FALSE}
 # Plotting the Hystogram
