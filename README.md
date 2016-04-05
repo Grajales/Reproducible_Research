@@ -2,8 +2,8 @@
 Reproducible Research Coursera Course Project 1
 
 Folder file content:
-(1) The file PA1_Template.Rmd contains the code and the plots for Project 1
-(2) The activity.csv file contains the data used by the PA1_Template.Rmd file
+(1) The file "PA1_Template.Rmd" contains the code and the plots for Project 1
+(2) The "activity.csv" file contains the data used by the PA1_Template.Rmd file
 
 The following summarizes the project data:
 This assignment makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.
@@ -35,3 +35,5 @@ The following summarizes the required submissions:
 8. Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
  
 9. All of the R code needed to reproduce the results (numbers, plots, etc.) in the report
+
+The file "ReproducibleResearch_Script_Project_PA1_LGrajales.pdf" shows the expected results when running the file "PA1_Template.Rmd" and using the "activity.csv" data.
